@@ -683,6 +683,12 @@ section.main-banner {
   z-index: 2;
 }
 
+.main-banner .CrazyCubeImage {
+  margin-left: -100px;
+  position: relative;
+  z-index: 2;
+}
+
 .main-banner .right-image img {
   position: relative;
   z-index: 2;
@@ -973,6 +979,11 @@ section.simple-cta {
 
 section.simple-cta .left-image {
   margin-right: 45px;
+}
+section.simple-cta .CCI {
+  margin-left: -300px;
+  position: relative;
+  z-index: 2;
 }
 
 section.simple-cta h6 {
