@@ -102,11 +102,6 @@ ul {
   margin-bottom: 0px;
 }
 
-p {
-  font-size: 14px;
-  line-height: 25px;
-  color: #4a4a4a;
-}
 
 img {
   overflow: hidden;
@@ -150,13 +145,17 @@ body {
 }
 
 .main-button-gradient a {
-  font-size: 13px;
+  font-size: 35px;
+  line-height: 50px;
+  font-family: "Baby";
+  margin-top: 20px;
+  margin-left: 50px;
   color: #fff;
   background: rgb(219,138,222);
   background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
-  padding: 12px 30px;
+  padding: 15px 50px;
   display: inline-block;
-  border-radius: 5px;
+  border-radius: 20px;
   font-weight: 500;
   text-transform: uppercase;
   transition: all .3s;
@@ -322,9 +321,11 @@ header
 }
 
 .header-area .main-nav .nav li a {
+  font-family: "Baby";
   display: block;
   font-weight: 400;
-  font-size: 20px;
+  margin-left: 30px;
+  font-size: 35px;
   text-transform: capitalize;
   color: #fff;
   -webkit-transition: all 0.3s ease 0s;
@@ -366,11 +367,13 @@ header
 
 .header-area .main-nav .nav li.has-sub ul.sub-menu {
   position: absolute;
-  width: 140px;
-  box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+  width: 300px;
+  margin-left: -80px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 7px 7px rgba(0, 0, 0, 0.4);
   overflow: hidden;
   top: 40px;
-  border-radius: 5px;
+  border-radius: 10px;
   opacity: 0;
   transition: all .3s;
   transform: translateY(+2em);
@@ -385,19 +388,21 @@ header
 }
 
 .header-area .main-nav .nav li.has-sub ul.sub-menu li a {
+  margin-left: 0;
   opacity: 1;
   display: block;
   background: #f7f7f7;
   color: #2a2a2a!important;
-  padding-left: 20px;
-  height: 40px;
-  line-height: 40px;
+  padding-top: 15px;
+  height: 100px;
+  text-align: center;
+  line-height: 70px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   position: relative;
-  font-size: 12px;
+  font-size: 30px;
   font-weight: 400;
   border-bottom: 1px solid #eee;
 }
@@ -730,6 +735,11 @@ section.main-banner {
   src:url(fonts/StartGame.ttf);
 }
 
+@font-face {
+  font-family: 'Baby';
+  src:url(fonts/Baby.ttf);
+}
+
 .main-banner .header-text h6 {
   position: relative;
   z-index: 2;
@@ -740,6 +750,8 @@ section.main-banner {
 }
 
 .main-banner .header-text hcute {
+  text-indent: 2em;
+  line-height: 45px;
   position: relative;
   z-index: 2;
   font-family: 'Cute';
@@ -750,6 +762,8 @@ section.main-banner {
 }
 
 .main-banner .header-text hsharp {
+  text-indent: 2em;
+  line-height: 45px;
   position: relative;
   z-index: 2;
   font-family: 'Sharp';
@@ -760,9 +774,23 @@ section.main-banner {
 }
 
 .main-banner .header-text hstart {
+  text-indent: 2em;
+  line-height: 45px;
   position: relative;
   z-index: 2;
   font-family: 'StartGame';
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #777777;;
+}
+
+.main-banner .header-text hbaby {
+  text-indent: 2em;
+  line-height: 45px;
+  position: relative;
+  z-index: 2;
+  font-family: 'Baby';
   font-size: 25px;
   font-weight: 500;
   text-transform: capitalize;
