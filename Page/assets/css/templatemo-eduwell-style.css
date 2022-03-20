@@ -715,10 +715,55 @@ section.main-banner {
   z-index: 1;
 }
 
+@font-face {
+  font-family: 'Cute';
+  src:url(fonts/Cute.ttf);
+}
+
+@font-face {
+  font-family: 'Sharp';
+  src:url(fonts/Sharp.ttf);
+}
+
+@font-face {
+  font-family: 'StartGame';
+  src:url(fonts/StartGame.ttf);
+}
+
 .main-banner .header-text h6 {
   position: relative;
   z-index: 2;
   font-size: 17px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #777777;;
+}
+
+.main-banner .header-text hcute {
+  position: relative;
+  z-index: 2;
+  font-family: 'Cute';
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #777777;;
+}
+
+.main-banner .header-text hsharp {
+  position: relative;
+  z-index: 2;
+  font-family: 'Sharp';
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #777777;;
+}
+
+.main-banner .header-text hstart {
+  position: relative;
+  z-index: 2;
+  font-family: 'StartGame';
+  font-size: 25px;
   font-weight: 500;
   text-transform: capitalize;
   color: #777777;;
