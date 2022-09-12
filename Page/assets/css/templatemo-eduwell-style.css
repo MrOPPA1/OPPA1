@@ -168,12 +168,17 @@ body {
 }
 
 .white-button a {
-  font-size: 13px;
+  font-size: 35px;
+  line-height: 50px;
+  font-family: "Baby";
+  margin-top: 20px;
+  margin-left: 50px;
   color: #dc8cdb;
-  background-color: #fff;
-  padding: 12px 30px;
+  background: #fff;
+  background: linear-gradient(-145deg, rgb(131, 226, 255) 0%, #fff 100%);
+  padding: 15px 50px;
   display: inline-block;
-  border-radius: 5px;
+  border-radius: 20px;
   font-weight: 500;
   text-transform: uppercase;
   transition: all .3s;
@@ -688,8 +693,8 @@ section.main-banner {
   z-index: 2;
 }
 
-.main-banner .CrazyCubeImage {
-  margin-left: -100px;
+.main-banner .PortraitImage {
+  margin-left: 100px;
   position: relative;
   z-index: 2;
 }
@@ -838,10 +843,10 @@ services
 }
 
 .services .item .icon {
-  max-width: 75px;
+  max-width: 100px;
   margin: 0 auto;
-  min-height: 80px;
-  line-height: 80px;
+  min-height: 100px;
+  line-height: 100px;
   vertical-align: middle;
 }
 
@@ -1054,7 +1059,7 @@ section.simple-cta .left-image {
   margin-right: 45px;
 }
 section.simple-cta .CCI {
-  margin-left: -300px;
+  margin-left: -100px;
   position: relative;
   z-index: 2;
 }
