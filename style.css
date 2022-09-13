@@ -933,10 +933,10 @@ body.app_version .header_style_01.fixed-menu{
     box-shadow: 0 0 115px 19px rgba(236, 236, 236, 1);
 }
 .testimonial .description{
+    font-weight: bold;
     font-size: 14px;
     color: #777;
     line-height: 26px;
-    text-indent: 30px;
     position: relative;
 }
 .testimonial .description:before{
@@ -945,7 +945,7 @@ body.app_version .header_style_01.fixed-menu{
     font-weight: 900;
     position: absolute;
     top: 0;
-    left: -15px;
+    left: 15px;
 }
 .testimonial .title{
     font-size: 24px;
@@ -1020,6 +1020,10 @@ body.app_version .header_style_01.fixed-menu{
 }
 .owl-theme .owl-dots .owl-dot:nth-child(3) span{
     background: url("images/xjc.jpg") no-repeat;
+    background-size: cover;
+}
+.owl-theme .owl-dots .owl-dot:nth-child(4) span{
+    background: url("images/ykt.png") no-repeat;
     background-size: cover;
 }
 .owl-theme .owl-dots.clickable .owl-dot:hover span{
