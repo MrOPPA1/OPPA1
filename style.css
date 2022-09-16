@@ -1026,6 +1026,14 @@ body.app_version .header_style_01.fixed-menu{
     background: url("images/ykt.png") no-repeat;
     background-size: cover;
 }
+.owl-theme .owl-dots .owl-dot:nth-child(5) span{
+    background: url("images/yfy.png") no-repeat;
+    background-size: cover;
+}
+.owl-theme .owl-dots .owl-dot:nth-child(6) span{
+    background: url("images/zxd.png") no-repeat;
+    background-size: cover;
+}
 .owl-theme .owl-dots.clickable .owl-dot:hover span{
     opacity: 0.5;
 }
